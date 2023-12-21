@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="birthdate" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lifemanagementsystem.PersonalInformationController">
+   <children>
+      <Label layoutX="41.0" layoutY="31.0" text="Personal Information" textFill="#6c16b7" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Label>
+
+      <Label layoutX="14.0" layoutY="43.0" prefHeight="31.0" prefWidth="106.0" text="First Name">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="74.0" prefHeight="31.0" prefWidth="106.0" text="Last Name">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="first_name" layoutX="131.0" layoutY="46.0" prefHeight="18.0" prefWidth="262.0" promptText="First Name" text="First Name" />
+      <TextField fx:id="last_name" layoutX="131.0" layoutY="77.0" prefHeight="18.0" prefWidth="262.0" promptText="First Name" text="Last Name" />
+      <Label layoutX="14.0" layoutY="105.0" prefHeight="31.0" prefWidth="106.0" text="Email">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="131.0" layoutY="108.0" prefHeight="18.0" prefWidth="262.0" promptText="First Name" text="email@example.com" />
+      <Label layoutX="14.0" layoutY="136.0" prefHeight="31.0" prefWidth="106.0" text="Birthdate">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="131.0" layoutY="136.0" promptText="1/1/2001" />
+      <Label layoutX="14.0" layoutY="167.0" prefHeight="31.0" prefWidth="106.0" text="Blood Type">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="79.0" layoutY="215.0" mnemonicParsing="false" onAction="#onUpdateInfoButtonClick" prefHeight="40.0" prefWidth="104.0" text="Update Info" />
+      <TextField fx:id="blood_type" layoutX="131.0" layoutY="169.0" prefHeight="26.0" prefWidth="262.0" promptText="A+" text="A+" />
+   </children>
+</AnchorPane>
