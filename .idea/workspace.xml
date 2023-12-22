@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb3ce9e5-4f85-403b-841a-9b0e53353c05" name="Changes" comment="edit information layout">
+    <list default="true" id="cb3ce9e5-4f85-403b-841a-9b0e53353c05" name="Changes" comment="edit personal information">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/ReadingListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifemanagementsystem/reading-list-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/PersonalInformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/PersonalInformationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/lifemanagementsystem/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifemanagementsystem/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/lifemanagementsystem/personal-information-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifemanagementsystem/personal-information-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703195911398</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="edit personal information">
+      <option name="closed" value="true" />
+      <created>1703237988509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703237988509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +144,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="Primary Layout" />
     <MESSAGE value="edit information layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit information layout" />
+    <MESSAGE value="edit personal information" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit personal information" />
   </component>
 </project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lifemanagementsystem.ReadingListController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" text="Reading List" textFill="#6c16b7" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Label>
+      <ListView fx:id="readingList" layoutX="14.0" layoutY="40.0" prefHeight="276.0" prefWidth="572.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+      <TextField fx:id="inputBook" layoutX="14.0" layoutY="328.0" AnchorPane.leftAnchor="14.0" />
+      <Button layoutX="180.0" layoutY="328.0" mnemonicParsing="false" onAction="#onAddBookButtonClick" text="Add Book" />
+      <Button layoutX="266.0" layoutY="328.0" mnemonicParsing="false" onAction="#onDeleteBookButtonClicked" text="Delete Book" />
+   </children>
+</AnchorPane>
