@@ -21,26 +21,27 @@
             <Font size="21.0" />
          </font>
       </Label>
-      <TextField fx:id="first_name" layoutX="131.0" layoutY="46.0" prefHeight="18.0" prefWidth="262.0" promptText="First Name" text="First Name" />
-      <TextField fx:id="last_name" layoutX="131.0" layoutY="77.0" prefHeight="18.0" prefWidth="262.0" promptText="First Name" text="Last Name" />
+      <TextField fx:id="FirstName" layoutX="131.0" layoutY="46.0" prefHeight="18.0" prefWidth="262.0" promptText="First Name" />
+      <TextField fx:id="LastName" layoutX="131.0" layoutY="77.0" prefHeight="18.0" prefWidth="262.0" promptText="Last Name" />
       <Label layoutX="14.0" layoutY="105.0" prefHeight="31.0" prefWidth="106.0" text="Email">
          <font>
             <Font size="21.0" />
          </font>
       </Label>
-      <TextField fx:id="email" layoutX="131.0" layoutY="108.0" prefHeight="18.0" prefWidth="262.0" promptText="First Name" text="email@example.com" />
+      <TextField fx:id="Email" layoutX="131.0" layoutY="108.0" prefHeight="18.0" prefWidth="262.0" promptText="email" />
       <Label layoutX="14.0" layoutY="136.0" prefHeight="31.0" prefWidth="106.0" text="Birthdate">
          <font>
             <Font size="21.0" />
          </font>
       </Label>
-      <DatePicker layoutX="131.0" layoutY="136.0" promptText="1/1/2001" />
       <Label layoutX="14.0" layoutY="167.0" prefHeight="31.0" prefWidth="106.0" text="Blood Type">
          <font>
             <Font size="21.0" />
          </font>
       </Label>
-      <Button layoutX="79.0" layoutY="215.0" mnemonicParsing="false" onAction="#onUpdateInfoButtonClick" prefHeight="40.0" prefWidth="104.0" text="Update Info" />
-      <TextField fx:id="blood_type" layoutX="131.0" layoutY="169.0" prefHeight="26.0" prefWidth="262.0" promptText="A+" text="A+" />
+      <Button layoutX="131.0" layoutY="215.0" mnemonicParsing="false" onAction="#onUpdateInfoButtonClick" prefHeight="40.0" prefWidth="104.0" text="Update Info" />
+      <TextField fx:id="BloodType" layoutX="131.0" layoutY="169.0" prefHeight="26.0" prefWidth="262.0" promptText="A+" />
+      <TextField fx:id="Birthdate" layoutX="131.0" layoutY="139.0" prefHeight="18.0" prefWidth="262.0" promptText="1/1/2001" />
+      <Button layoutX="15.0" layoutY="215.0" mnemonicParsing="false" onAction="#onGetInfoButtonClick" prefHeight="40.0" prefWidth="104.0" text="Get Info" />
    </children>
 </AnchorPane>
