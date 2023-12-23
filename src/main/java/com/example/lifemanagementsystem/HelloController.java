@@ -25,4 +25,10 @@ public class HelloController {
         Window.openNewWindow("open-terminal-view.fxml");
         ExerciseScheduler.prompt();;
     }
+
+    @FXML
+    protected void onActivityButtonClick() throws IOException {
+        Window.openNewWindow("open-terminal-view.fxml");
+        Prompt.prompt();
+    }
 }

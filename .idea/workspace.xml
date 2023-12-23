@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb3ce9e5-4f85-403b-841a-9b0e53353c05" name="Changes" comment="books">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/ExerciseScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifemanagementsystem/open-terminal-view.fxml" afterDir="false" />
+    <list default="true" id="cb3ce9e5-4f85-403b-841a-9b0e53353c05" name="Changes" comment="event schedular">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/Activity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lifemanagementsystem/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/lifemanagementsystem/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifemanagementsystem/hello-view.fxml" afterDir="false" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -132,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703282750252</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="event schedular">
+      <option name="closed" value="true" />
+      <created>1703285008579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703285008579</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +160,7 @@
     <MESSAGE value="edit information layout" />
     <MESSAGE value="edit personal information" />
     <MESSAGE value="books" />
-    <option name="LAST_COMMIT_MESSAGE" value="books" />
+    <MESSAGE value="event schedular" />
+    <option name="LAST_COMMIT_MESSAGE" value="event schedular" />
   </component>
 </project>
