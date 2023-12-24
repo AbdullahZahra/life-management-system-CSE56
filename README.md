@@ -21,6 +21,7 @@ We started by 4 modules:
 | Database | MySQL |
 | IDE | IntelliJ |
 | SVC | Git |
+
 ## Database
 
 We used MySQL database using XAMPP so that we used :
@@ -55,14 +56,15 @@ password = ""
 
 Here you can choose which application to start.
 
-![[mainUI.png]]
+![Main UI](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/images/mainUI.png)
+
 ### Personal Information
 
 Here you can:
 1. Read data from database.
 2. Update data in database.
 
-![[personalInformation.png]]
+![Personal Information](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/images/personalInformation.png)
 
 ### Reading List
 
@@ -71,7 +73,7 @@ Here you can:
 2. Show the added books to the list.
 3. Delete the books added in the list.
 
-![[readingList.png]]
+![Reading List](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/images/readingList.png)
 
 ### Exercise Schedule & Activity Manager
 
@@ -81,17 +83,17 @@ Due to the lack of sufficient time for learning and implementing the knowledge o
 
 Calculates the next exercise date of the given exercise.
 
-![[exerciseSchedule.png]]
+![Exercise Schedule](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/images/exerciseSchedule.png)
 
 #### Activity Manager
 
 A simple reminder of different types of deadlines.
 
-![[activityManager.png]]
+![Activity Manager](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/images/activityManager.png)
 ## UML Diagram
 
-![[UML_Diagram -1.pdf]]
+![UML Diagram](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/pdfs/UML_Diagram%20-1.pdf)
 
 ## Project Proposal
 
-![[LifeMangment.pdf]]
+![Project Proposal](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/pdfs/LifeMangment.pdf)
