@@ -97,3 +97,7 @@ A simple reminder of different types of deadlines.
 ## Project Proposal
 
 ![Project Proposal](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/pdfs/LifeMangment.pdf)
+
+## Project Presentation
+
+![Project Presentation](https://github.com/AbdullahZahra/life-management-system-CSE56/blob/main/pdfs/Life%20Management%20System.pdf)
